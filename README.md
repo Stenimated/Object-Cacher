@@ -2,7 +2,7 @@
 
 Object cacher is a simple way to cache objects. It returns a single table with the ability to loop or call
 
-## Doccumentation
+## documentation
 
 Cache workspace
 ```lua
@@ -20,7 +20,7 @@ type All = "GetChildren" | "GetPlayers" | "GetDescendants"
 
 	2# "Added" RBXScriptSignal
 	3# "Removing" RBXScriptSignal
-	4# "GetAll" Array<Instance>
+	4# "GetAll" () -> Array<Instance>
 ]]
 
 local CacheWorkspace = ObjectCacher(workspace, "ChildAdded", "ChildRemoved", "GetChildren")
